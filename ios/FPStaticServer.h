@@ -1,7 +1,7 @@
 #import <React/RCTBridgeModule.h>
 
 // GCDWebServer: https://github.com/swisspol/GCDWebServer
-#import "GCDWebServer.h"
+#import "../../realm/vendor/GCDWebServer/GCDWebServer/Core/GCDWebServer.h"
 
 @interface FPStaticServer : NSObject <RCTBridgeModule> {
     GCDWebServer* _webServer;
